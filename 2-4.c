@@ -65,7 +65,7 @@ void DelNode(LinkList *head)
 			p->next = q->next;
 			free(q);
 		} else {
-			p=p->next;
+			p = p->next;
 		}
 	}
 }

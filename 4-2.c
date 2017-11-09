@@ -49,7 +49,7 @@ void SubString(SeqString *sub, SeqString *s, int pos, int len)
 {
 	int i,j;
 	if(pos < 1 || pos > s->len || len < 0 || len > s->len - pos + 1) {
-    	printf("错误！\n");
+		printf("错误！\n");
 	} else {
 		i = 1;
 		j = pos;
