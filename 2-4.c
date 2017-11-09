@@ -99,8 +99,8 @@ void main()
 	DelNode(head);
 	printf("删除重复结点后的链表是:");
 	PrnList(head);
-    //逆置单链表
-    Invert(head);
+	//逆置单链表
+	Invert(head);
 	printf("逆置后的链表是:");
 	//逆置后的遍历
 	PrnList(head);
