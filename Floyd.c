@@ -45,7 +45,7 @@ void floyd()
     printf("Path[0]:\n");
     print_matrix(path);
     printf("--------------------------------------------\n");
-    getch();
+    getchar();
     for(k=1;k<=VEXN;k++)
     {
         for(i = 1; i <= VEXN; i++) {
@@ -61,7 +61,7 @@ void floyd()
             printf("Path[%d]:\n", k);
             print_matrix(path);
             printf("--------------------------------------------\n");
-            getch();
+            getchar();
         }
     }
     printf("\nPATH:\n");
@@ -87,5 +87,5 @@ void floyd()
 void main()
 {
     floyd();
-    getch();
+    getchar();
 }
